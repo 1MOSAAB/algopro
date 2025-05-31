@@ -4,7 +4,7 @@ import time
 from io import StringIO
 import matplotlib.pyplot as plt
 
-# Sorting Algorithms with Snapshot Tracking
+
 def record_snapshot(snapshots, arr):
     snapshots.append(arr.copy())
 
